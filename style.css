@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.banner{
+    height: 50px;
+    /* border: 3px solid black; */
+    background-image: url(./assets/asset\ 32.png);
+    background-size: 300px;
+    background-color: #e74694;
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.banner p{
+    margin-top: 10px;
+    font-weight: 800;
+    
+}
+
+.nav{
+    display: flex;
+}
+
+.left-side img{
+    height: 30px;
+    margin-left: 167px;
+    margin-top: 30px;
+}
+
+.btn-1{
+    border: 0.5px solid #577592;
+    padding: 14px;
+    text-decoration: none;
+    font-weight: 600;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 5px;
+}
+
+.btn-1:hover{
+    border: 0.5px solid #2294ed;
+    color: #2294ed;
+}
+
+.btn-2{
+    /* border: 2px solid black; */
+    padding: 14px;
+    text-decoration: none;
+    background-color: #2294ed;
+    color: white;
+    font-weight: 600;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-radius: 5px;
+    margin-left: -20px;
+}
+
+.btn-2:hover{
+    background-color: #0061ad;
+}
+
+.right-side ul{
+    /* border: 4px solid black; */
+    display: flex;
+    list-style: none;
+    margin-top: 17px;
+    margin-left: 333px;
+    /* margin-right: 167px; */
+}
+
+.right-side li{
+    /* border: 4px solid black; */
+    margin: 16px;
+    font-size: 16px;
+    color: #183b56;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 33px;
+
+}
+
+.right-side li:hover{
+    color: #2294ed;
+    cursor: pointer;
+}
+
+.mid{
+    display: flex;
+}
+
+.mid p{
+    font-family: 'Poppins';
+}
+
+.left-main{
+    margin-top: 164px;
+}
+
+.left-main h1{
+    /* font-family: 'Poppins'; */
+    font-family: 'Roboto';
+    font-size: 48px;
+    margin-left: 167px;
+    color: #183b56;
+}
+
+.left-main p{
+    margin-top: 16px;
+    font-size: 20px;
+    margin-left: 167px;
+    margin-right: 106px;
+    color: #577592;
+}
+
+.btnbox{
+    /* border: 2px solid black; */
+    border-radius: 3px;
+    margin-left: 167px;
+    margin-top: 32px;
+    width: 120px;
+    height: 40px;
+    background-color: #2294ed;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;  /* vertically */
+    justify-content: center; /* horizontally */
+    
+}
+
+.left-main a{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btnbox:hover{
+    cursor: pointer;
+    background-color: #0061ad;
+}
+
+.right-main img{
+    margin-top: 75px;
+    margin-right: 167px;
+    height: 400px;
+}
+
+.message{
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: #183b56;
+    font-size: 17px;
+}
+
+.logos ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    list-style: none;
+    margin-left: 90px;
+}
+
+.logos li img{
+    margin-left: 80px;
+    width: 100px;
+}
+
+.box img{
+    margin-top: -25px;
+    height: 100px;
+}
+
+.asana img{
+    margin-top: -15px;
+}
